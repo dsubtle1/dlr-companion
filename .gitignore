@@ -1,0 +1,26 @@
+# System files
+.DS_Store
+._*
+Thumbs.db
+
+# Dependencies, generated output, and caches
+node_modules/
+dist/
+build/
+coverage/
+.cache/
+
+# Local environment and credential files
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+credentials*.json
+
+# Logs and temporary editor files
+*.log
+*.tmp
+*.swp
+*.swo
+*~
